@@ -31,3 +31,34 @@ form{
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
+.BM{
+    background-color: rgb(12, 185, 220);
+}
+.Ten{
+    background-color: rgb(246, 245, 243);
+}
+.Email{
+    background-color: rgb(90, 152, 210);
+}
+.CD{
+    background-color: aliceblue;
+}
+.TGHT{
+    background-color: rgb(94, 171, 239);
+}
+.TG{
+    background-color: aliceblue;
+}
+.CH{
+    background-color: rgb(104, 161, 241);
+}
+.DK{
+    background-color: aliceblue;
+}
+.Can{
+   text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1); 
+}

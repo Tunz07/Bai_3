@@ -96,5 +96,71 @@
             <input type="reset" value="Đặt lại">
         </form>
     </div>
+    <hr>
+    <table class="Can" border="1" style="border-collapse: collapse; width: 500px; background-color: #daeef3;">
+        <tr>
+            <th colspan="2" style="background-color: #9bc2e6; padding: 10px;">
+                Khảo sát đăng ký tài khoản thành viên
+            </th>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding: 10px;">
+                <fieldset>
+                    <legend><b>Thông tin cá nhân</b></legend>
+                    <table width="100%" border="0">
+                        <tr>
+                            <td width="130"><label for="name">Họ tên:</label></td>
+                            <td><input type="text" name="name" id="name" style="width: 90%;"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" name="email" id="email" style="width: 90%;"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="sdt">Số điện thoại:</label></td>
+                            <td><input type="tel" name="sdt" id="sdt" style="width: 90%;"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="ns">Ngày sinh:</label></td>
+                            <td><input type="date" name="ns" id="ns"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="mk">Mật khẩu:</label></td>
+                            <td><input type="password" name="mk" id="mk" style="width: 90%;"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding: 10px;">
+                <fieldset>
+                    <legend><b>Tùy chọn tài khoản</b></legend>
+                    <table width="100%" border="0">
+                        <tr>
+                            <td width="130"><label for="goi">Chọn gói thành viên:</label></td>
+                            <td>
+                                <select name="goi" id="goi">
+                                    <option value="mienphi">Miễn phí</option>
+                                    <option value="coban">Cơ bản</option>
+                                    <option value="caocap">Cao cấp</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="avatar">Tải ảnh đại diện:</label></td>
+                            <td><input type="file" name="avatar" id="avatar"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" style="padding: 10px; background-color: #9bc2e6;">
+                <input type="submit" value="Đăng ký">
+                <input type="reset" value="Nhập lại">
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
