@@ -1,0 +1,33 @@
+#Tao{
+    color: rgb(2, 1, 2);
+    font-size: 25px;
+    text-align: center;
+}
+.dinh_dang{
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+form{
+    display: inline-block;
+    text-align: left;
+}
+.Chu_y{
+    text-align: center;
+}
+.Bang_2{
+    text-align: center;
+    border-radius: 10%;
+}
+.Thong_tin{
+    text-align: center;
+}
+.form_4{
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}

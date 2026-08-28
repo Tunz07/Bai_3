@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Tạo bảng Form </title>
+</head>
+<body>
+    <Tạo><p id="Tao">Tạo bảng Form</p></h1>
+    <!-- Mở thẻ form -->
+     <div class="dinh_dang">
+         <form name="Form" action="login.php" method="post">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br>
+            Password:<input type="password" name="pass"><br>
+            <br>
+            <input type="submit" value="Đăng Nhập">
+            <input type="reset" value="Nhập Lại">
+            <br>
+         </form>
+     </div>
+     <br>
+     <textarea class="Chu_y" rows="10" cols="50">Nhập bình luận</textarea>
+     <p>Lorem ipsum dolor sit amet consectetur.</p>
+     <hr>
+    <div class="Bang_2">
+        <form name="Bang_2" action="login.php" method="post">
+            Sở thích: 
+            <br>
+            <input type="checkbox" name="sothich" value="nghenhac"/> Nghe nhạc <br>
+            <input type="checkbox" name="sothich" value="choigame"/> Chơi game <br>
+            <input type="checkbox" name="sothich" value="dabong"/> Đá bóng <br>  
+        </form>
+    </div>
+    <hr>
+    <div class="ngonngubanthich">
+        <p>Chọn ngôn ngữ bạn thích:</p>
+        <form action="..." name="Form_3" method="post">
+            <input type="radio" id="html" name="HTML" value="HTML">
+            <label for="html">HTML</label> <br>
+            <input type="radio" id="css" name="CSS" value="CSS">
+            <label for="css">CSS</label> <br>
+            <input type="radio" id="JavaScript" name="JavaScript" value="JavaScript">
+            <label for="JavaScript">JavaScript</label> <br>
+        </form>
+    </div>
+    <hr>
+    <p class="Thong_tin" style="font-size: 25px;">Thông tin sinh viên</p>
+    <br>
+    <div class="form_4">
+        <form action="..." name="Thong_tin_sv" method="post">
+            <label for="">Mã Sinh Viên</label>
+            <input type="text" required/> <br>
+            <!-- required không được để trống -->
+            <label for="">Tên Sinh Viên</label>
+            <input type="text"/> <br>
+            <label for="femail">Email: </label>
+            <input type="email"> <br>
+            <label for="sdt">Số điện thoại:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br>
+            <label for="">Lớp</label>
+            <input type="text"><br>
+            <label for="">Giới tính</label>
+            <input type="checkbox" name="GT" id=""> Nam
+            <input type="checkbox" name="Gt" id=""> Nữ <br>
+            <label for="">Giới tính</label>
+            <input type="radio" name="GT" id="" checked> Nam
+            <input type="radio" name="GT" id=""> Nữ <br>
+            <label for="">Đăng ký môn học</label> <br>
+            <input type="checkbox" name="" id="" > Thiết kế Web
+            <input type="checkbox" name="" id=""> An ninh mạng
+            <input type="checkbox" name="" id=""> Lập trình ứng dụng Phân tán. <br>
+            <label for="">Đăng ký môn học</label> <br>
+            <input type="radio" name="" id="" > Thiết kế Web.
+            <input type="radio" name="" id=""> An ninh mạng.
+            <input type="radio" name="" id=""> Lập trình ứng dụng Phân tán. <br>
+    
+            <label for="fname">Hình ảnh:</label>
+            <input type="file" id="fname" name="fname"> <br>
+            <label for="fname">Hình ảnh:</label>
+            <input type="image" src="./img/img.jpg" id="fname" name="fname" width="200"> <br>
+
+            <select name="Tinh" id="" multiple="multiple">
+            <option value="hn">Hà Nội</option>
+            <option value="tn">Thái Nguyên</option>
+            <option value="36">Thanh Hóa</option>
+            <option value="na">Nghệ An</option>
+            <option value="tp_HCM">TP.Hồ Chí Minh</option>
+            </select>
+            <label for="">Thông tin thêm</label> <br>
+            <textarea name="" id="" rows="10" cols="50">Sở thích</textarea> <br>
+            <input type="submit" value="Nhập">
+            <input type="reset" value="Đặt lại">
+        </form>
+    </div>
+</body>
+</html>
